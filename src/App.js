@@ -10,7 +10,7 @@ export default function App() {
     <Fragment>
       <ThemeProvider theme={theme}>
         <CssBaseline>
-          <Routes />;
+          <Routes />
         </CssBaseline>
       </ThemeProvider>
     </Fragment>
