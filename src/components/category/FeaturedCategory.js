@@ -15,7 +15,7 @@ export default function FeaturedCategory() {
     <Fragment>
       <Box sx={{ mt: 8, mb: 8 }}>
         <Container maxWidth="xl">
-          <Grid container spacing={4}>
+          <Grid container spacing="5rem">
             <Grid item sm={12} md={4}>
               <Typography
                 sx={{ textAlign: { xs: "center", md: "left" } }}

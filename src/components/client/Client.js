@@ -25,7 +25,7 @@ export default function Client() {
   };
   return (
     <Fragment>
-      <Box sx={{ pt: 8, pb: 8 }}>
+      <Box sx={{ pb: 8 }}>
         <Container maxWidth="xl">
           <Typography align="center" variant="h3" gutterBottom>
             We Work With

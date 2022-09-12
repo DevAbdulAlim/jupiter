@@ -2,6 +2,7 @@ import SiteLayout from "../layout/Layout";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import CourseDetails from "../pages/CourseDetails";
+import NotFound from "../pages/NotFound";
 
 const MainRoutes = {
   path: "/",
@@ -16,6 +17,7 @@ const MainRoutes = {
       element: <About />,
     },
     { path: "details", element: <CourseDetails /> },
+    { path: "*", element: <NotFound /> },
   ],
 };
 

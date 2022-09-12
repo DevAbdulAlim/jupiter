@@ -14,7 +14,7 @@ import {
 export default function Header() {
   return (
     <Fragment>
-      <Box sx={{ pt: "8rem", pb: "8rem" }}>
+      <Box sx={{ pt: 8, pb: 8 }}>
         <Container maxWidth="xl">
           <Grid
             container
@@ -50,8 +50,12 @@ export default function Header() {
                 spacing="1rem"
                 justifyContent={{ xs: "center", md: "flex-start" }}
               >
-                <Button variant="contained">Ready Start </Button>
-                <Button variant="outlined">Watch Video</Button>
+                <Button sx={{ backgroundColor: "#423a8a" }} variant="contained">
+                  Ready Start{" "}
+                </Button>
+                <Button sx={{ color: "#423a8a" }} variant="outlined">
+                  Watch Video
+                </Button>
               </Stack>
 
               <Divider />

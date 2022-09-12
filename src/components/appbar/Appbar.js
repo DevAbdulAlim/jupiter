@@ -56,7 +56,7 @@ function Appbar(props) {
   return (
     <Fragment>
       <AppBar
-        sx={{ backgroundColor: "#1976d2", color: "white" }}
+        sx={{ backgroundColor: "#423a8a", color: "white" }}
         position="sticky"
         component="nav"
       >

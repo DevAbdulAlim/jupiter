@@ -11,11 +11,11 @@ export default function Teachers() {
           <Typography variant="h4" align="center" gutterBottom>
             Meet Our Teachers
           </Typography>
-          <Typography variant="p" component="p" gutterBottom>
+          <Typography variant="p" component="p" align="center" gutterBottom>
             Since wire-frame renderings are relatively simple and fast to
             calculate, they are often used in cases
           </Typography>
-          <Grid container spacing={4}>
+          <Grid mt="1rem" container spacing={4}>
             {[...Array(4)].map((_, index) => (
               <Grid item xs={12} sm={6} md={3}>
                 <TeacherCard />
