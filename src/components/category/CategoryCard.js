@@ -1,7 +1,6 @@
 import { Fragment } from "react";
 import { Card, CardMedia, Typography, Stack } from "@mui/material";
-
-import GraphicsIcon from "../../static/images/graphics-design.svg";
+import { MdWeb } from "react-icons/md";
 
 export default function CategoryCard() {
   return (
@@ -20,8 +19,8 @@ export default function CategoryCard() {
           spacing="0.5rem"
           alignItems="center"
         >
-          <img height="40px" width="40px" src={GraphicsIcon} alt="graphics" />
-          <Typography variant="h6" gutterBottom>
+          <MdWeb style={{ fontSize: "3rem", color: "#423a8a" }} />
+          <Typography color="text.secondary" variant="h6" gutterBottom>
             Web Design
           </Typography>
         </Stack>

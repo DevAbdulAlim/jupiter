@@ -27,7 +27,12 @@ export default function AboutUs() {
               <Typography variant="h3" gutterBottom>
                 Phasellus gravida semper nisi. Vestibulum rutrum
               </Typography>
-              <Typography variant="p" component="p" gutterBottom>
+              <Typography
+                color="text.secondary"
+                variant="p"
+                component="p"
+                gutterBottom
+              >
                 Curabitur a felis in nunc fringilla tristique. Fusce egestas
                 elit eget lorem. Etiam vitae tortor. Class aptent taciti
                 sociosqu ad litora torquent per conubia nostra, per inceptos
@@ -42,7 +47,7 @@ export default function AboutUs() {
                       boxShadow: "rgba(0, 0, 0, 0.05) 0px 0px 0px 1px",
                     }}
                   >
-                    <Typography>
+                    <Typography color="text.secondary">
                       Pellentesque habitant morbi tristique senectus et netus et
                       malesuada fames ac turpis
                     </Typography>

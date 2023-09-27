@@ -25,6 +25,7 @@ export default function FeaturedCategory() {
                 Featured Category
               </Typography>
               <Typography
+                color="text.secondary"
                 sx={{ textAlign: { xs: "center", md: "left" } }}
                 variant="p"
                 component="p"
@@ -37,7 +38,15 @@ export default function FeaturedCategory() {
                 direction="row"
                 sx={{ justifyContent: { xs: "center", md: "left" } }}
               >
-                <Button variant="contained">Explore More</Button>
+                <Button
+                  sx={{
+                    backgroundColor: "#423a8a",
+                    "&:hover": { backgroundColor: "#423a8a" },
+                  }}
+                  variant="contained"
+                >
+                  Explore More
+                </Button>
               </Stack>
             </Grid>
             <Grid item sm={12} md={8}>

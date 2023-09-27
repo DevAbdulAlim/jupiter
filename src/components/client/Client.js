@@ -30,7 +30,13 @@ export default function Client() {
           <Typography align="center" variant="h3" gutterBottom>
             We Work With
           </Typography>
-          <Typography align="center" variant="p" component="p" gutterBottom>
+          <Typography
+            color="text.secondary"
+            align="center"
+            variant="p"
+            component="p"
+            gutterBottom
+          >
             Quisque aliquet, libero consequat elementum convallis.
           </Typography>
 

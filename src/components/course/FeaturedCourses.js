@@ -15,6 +15,7 @@ export default function FeaturedCourses() {
             Featured Courses
           </Typography>
           <Typography
+            color="text.secondary"
             sx={{ textAlign: { xs: "center", md: "left" } }}
             variant="p"
             component="p"

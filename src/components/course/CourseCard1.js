@@ -58,12 +58,7 @@ export default function CourseCard() {
       <Slider {...settings}>
         {[...Array(15)].map((_, index) => (
           <Grid sx={{ padding: "1.3rem" }} item>
-            <Card
-              sx={{
-                boxShadow: "rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;",
-                borderRadius: "3%",
-              }}
-            >
+            <Card sx={{ boxShadow: "rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;" }}>
               <CardMedia
                 component="img"
                 image={require("../../static/images/web-design1.webp")}
@@ -77,24 +72,21 @@ export default function CourseCard() {
                 <Typography color="text.primary" variant="h6" gutterBottom>
                   Web Desing & Developement
                 </Typography>
+                <Typography color="text.secondary">
+                  <MdOutlineTimer style={{ color: "red" }} /> Duration: 2 Hours
+                </Typography>
+                <Typography color="text.secondary">
+                  <MdOutlineClass /> Total Class: 36
+                </Typography>
+                <Typography color="text.secondary">
+                  <GrCertificate /> Certificate: Yes
+                </Typography>
               </CardContent>
               <Stack p="1rem" direction="row" justifyContent="space-between">
+                <Button variant="outlined">See More</Button>
                 <Typography color="text.primary" variant="h5">
                   $400
                 </Typography>
-                <Button
-                  sx={{
-                    backgroundColor: "#423a8a",
-                    boxShadow: "none",
-                    "&:hover": {
-                      boxShadow: "none",
-                      backgroundColor: "#201a59",
-                    },
-                  }}
-                  variant="contained"
-                >
-                  See More
-                </Button>
               </Stack>
             </Card>
           </Grid>

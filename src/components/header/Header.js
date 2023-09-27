@@ -34,6 +34,7 @@ export default function Header() {
                 Free Online Courses From The Experts
               </Typography>
               <Typography
+                color="text.secondary"
                 sx={{ textAlign: { xs: "center", md: "left" } }}
                 variant="p"
                 component="p"
@@ -50,11 +51,14 @@ export default function Header() {
                 spacing="1rem"
                 justifyContent={{ xs: "center", md: "flex-start" }}
               >
-                <Button sx={{ backgroundColor: "#423a8a" }} variant="contained">
-                  Ready Start{" "}
-                </Button>
-                <Button sx={{ color: "#423a8a" }} variant="outlined">
-                  Watch Video
+                <Button
+                  sx={{
+                    backgroundColor: "#423a8a",
+                    "&:hover": { backgroundColor: "#423a8a" },
+                  }}
+                  variant="contained"
+                >
+                  Read More{" "}
                 </Button>
               </Stack>
 
@@ -68,16 +72,22 @@ export default function Header() {
               >
                 <Paper elevation={0}>
                   <Typography variant="h6">14K+</Typography>
-                  <Typography variant="p">Learners</Typography>
+                  <Typography color="text.secondary" variant="p">
+                    Learners
+                  </Typography>
                 </Paper>
                 <Paper elevation={0}>
                   <Typography variant="h6">1.04K+</Typography>
-                  <Typography variant="p">Courses</Typography>
+                  <Typography color="text.secondary" variant="p">
+                    Courses
+                  </Typography>
                 </Paper>
 
                 <Paper elevation={0}>
                   <Typography variant="h6">59K+</Typography>
-                  <Typography variant="p">Graduates</Typography>
+                  <Typography color="text.secondary" variant="p">
+                    Graduates
+                  </Typography>
                 </Paper>
               </Stack>
             </Grid>

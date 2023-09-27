@@ -11,7 +11,13 @@ export default function Teachers() {
           <Typography variant="h4" align="center" gutterBottom>
             Meet Our Teachers
           </Typography>
-          <Typography variant="p" component="p" align="center" gutterBottom>
+          <Typography
+            color="text.secondary"
+            variant="p"
+            component="p"
+            align="center"
+            gutterBottom
+          >
             Since wire-frame renderings are relatively simple and fast to
             calculate, they are often used in cases
           </Typography>
@@ -23,7 +29,16 @@ export default function Teachers() {
             ))}
           </Grid>
           <Stack sx={{ mt: 5, mb: 5 }} direction="row" justifyContent="center">
-            <Button variant="outlined">Views All Teachers</Button>
+            <Button
+              sx={{
+                color: "#423a8a",
+                border: "1px solid #423a8a",
+                "&:hover": { border: "1px solid #423a8a" },
+              }}
+              variant="outlined"
+            >
+              Views All Teachers
+            </Button>
           </Stack>
         </Container>
       </Box>

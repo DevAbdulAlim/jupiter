@@ -16,7 +16,12 @@ export default function TeacherCard() {
         <Typography variant="h6" align="center" gutterBottom>
           Jayvion Simon
         </Typography>
-        <Typography variant="p" align="center" gutterBottom>
+        <Typography
+          color="text.secondary"
+          variant="p"
+          align="center"
+          gutterBottom
+        >
           Full Stack Developer
         </Typography>
       </Stack>

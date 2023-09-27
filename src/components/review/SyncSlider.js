@@ -25,7 +25,13 @@ export default function SyncSlider() {
       >
         {[...Array(6)].map((_, index) => (
           <Paper elevation={0} sx={{ p: "3rem 1rem 3rem 1rem" }}>
-            <Typography variant="p" component="p" align="center">
+            <Typography
+              sx={{ cursor: "grab" }}
+              color="text.secondary"
+              variant="p"
+              component="p"
+              align="center"
+            >
               Simply dummy text of the printing and typesetting industry. Lorem
               Ipsum has been the industry's standard dummy text ever since the
               1500s, when an unknown printer took a galley of type and scrambled
@@ -52,7 +58,15 @@ export default function SyncSlider() {
         >
           {["A", "B", "C", "D", "E", "F"].map((item, index) => (
             <Paper elevation={0} sx={{ pt: "3rem", pb: "3rem" }}>
-              <Avatar sx={{ margin: "auto" }}>{item}</Avatar>
+              <Avatar
+                sx={{
+                  cursor: "pointer",
+                  margin: "auto",
+                  backgroundColor: "#423a8a",
+                }}
+              >
+                {item}
+              </Avatar>
             </Paper>
           ))}
         </Slider>
